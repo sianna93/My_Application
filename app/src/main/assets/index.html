@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Aplicaciones Multimedia </title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+    <script type="text/javascript">
+      function sqlite(){
+          app.sqlite();
+      }
+
+      function dragdrop(){
+          app.dragdrop();
+      }
+      function webview(){
+          app.webview();
+      }
+    </script>
+  <nav class="teal lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><i class="material-icons">android</i>Demo</a>
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div id="contenido" class="container">
+
+
+      <div class="card">
+        <div class="card-image hoverable waves-effect waves-block waves-light">
+          <img class="activator" src="image3.jpg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Características<i class="material-icons right">more_vert</i></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Historia<i class="material-icons right">close</i></span>
+          <br/>
+          <p align="justify"  class="container">El sistema operativo Android desarrollado por la empresa Android Inc,
+            en 2003, fue creado para smartphones; era desconocida hasta el 2005 que
+            fue comprado por Google. Este sistema operativo incluye una plataforma
+            basado en Linux versión 2.6 junto con su SDK con el cual los desarrolladores podrían
+            hacer sus propias aplicaciones</p>
+        </div>
+      </div>
+      <!--contenido-->
+      <div style="padding-top: 40px">
+        <div class="row">
+          <div class="col s6 l3 offset-l2">
+            <button class="waves-effect waves-light btn" onclick="dragdrop()"><i class="material-icons left">touch_app</i>D y D</button>
+          </div>
+          <div class="col s6 l3 offset-l2">
+            <button class="waves-effect waves-light btn" onclick="webview()"><i class="material-icons left">language</i>WEB</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s6 l3 offset-l2">
+            <button class="waves-effect waves-light btn" onclick="sqlite()"><i class="material-icons left">move_to_inbox</i>BDD</button>
+          </div>
+          <div class="col s6 l3 offset-l2">
+            <button class="waves-effect waves-light btn" onclick="Materialize.toast('COSTA&PUENTE', 1000)"><i class="material-icons left">cloud</i>MÁS</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+
+  </body>
+  </html>

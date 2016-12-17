@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="4"
+    android:columnWidth="280dp"
+    android:orientation="vertical"
+    android:rowCount="6">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Rompecabezas"
+        android:id="@+id/textView6"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:padding="4dp"
+        android:layout_columnSpan="4"
+        android:textColor="#5561e1"
+        android:paddingBottom="20dp" />
+
+    <LinearLayout
+        android:id="@+id/c1"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:background="@drawable/shape">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/simpson1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/c2"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:background="@drawable/shape">
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/simpson10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/c3"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_row="1"
+        android:layout_column="2"
+        android:background="@drawable/shape">
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/simpson11" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/c4"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_row="1"
+        android:layout_column="3"
+        android:background="@drawable/shape">
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/simpson5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/c5"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:background="@drawable/shape">
+
+        <ImageView
+            android:id="@+id/img5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/simpson8" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/c6"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:background="@drawable/shape"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/simpson6" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/c7"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_row="2"
+        android:layout_column="2"
+        android:background="@drawable/shape">
+
+        <ImageView
+            android:id="@+id/img7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/simson6" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/c8"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_row="2"
+        android:layout_column="3"
+        android:background="@drawable/shape"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/simpson9" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/c9"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:background="@drawable/shape"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/simpon2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/c10"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:background="@drawable/shape"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/simpson14" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/c11"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_row="3"
+        android:layout_column="2"
+        android:background="@drawable/shape"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/simpson13" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/c12"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_row="3"
+        android:layout_column="3"
+        android:background="@drawable/shape"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/simpson4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/c13"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:background="@drawable/shape"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/simpson7" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/c14"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:background="@drawable/shape"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/simpson12" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/c15"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_row="4"
+        android:layout_column="2"
+        android:background="@drawable/shape"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/simpson3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/c16"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_row="4"
+        android:layout_column="3"
+        android:background="@drawable/shape"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/simpson15" />
+    </LinearLayout>
+
+
+
+
+</GridLayout>
